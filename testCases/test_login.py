@@ -1,11 +1,12 @@
 from selenium import webdriver
 import pytest
 from pageObjects.LoginPage import LoginPage
+from utilities.readProperties import ReadCOnfig
 
 class Test_001_Login:
-    baseUrl = "https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F"
-    username = "admin@yourstore.com"
-    password = "admin"
+    baseUrl = ReadCOnfig.getApplicationUrl()
+    username = ReadCOnfig.getUseremail()
+    password = ReadCOnfig.getPassword()
 
 
     def test_homePageTitle(self,setup):
