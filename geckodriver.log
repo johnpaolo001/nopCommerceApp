@@ -1,0 +1,18 @@
+1623509731566	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/34/s69fyghj7tb8lnrldtc0f22r0000gn/T/rust_mozprofile1RuflV"
+1623509733392	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/34/s69fyghj7tb8lnrldtc0f22r0000gn/T/rust_mozprofile1RuflV/search.json.mozlz4", (void 0)))
+1623509736313	Marionette	INFO	Listening on port 51589
+1623509736377	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623509739391	Marionette	INFO	Stopped listening on port 51589
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623509741175	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/34/s69fyghj7tb8lnrldtc0f22r0000gn/T/rust_mozprofileOJRKUj"
+1623509741788	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/34/s69fyghj7tb8lnrldtc0f22r0000gn/T/rust_mozprofileOJRKUj/search.json.mozlz4", (void 0)))
+1623509744024	Marionette	INFO	Listening on port 51685
+1623509744083	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623509755459	Marionette	INFO	Stopped listening on port 51685
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
